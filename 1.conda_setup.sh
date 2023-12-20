@@ -9,7 +9,8 @@ sudo apt-get install -y byacc zlib1g-dev python-dev git cmake python3-pip
 sudo apt-get install -y default-jdk ant
 sudo apt-get install -y libzmq3-dev libcurl4-openssl-dev libssl-dev
 
-
+sudo wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sudo chmod +x Miniconda3-latest-Linux-x86_64.sh
 
 
 # Optimize profile and terminal
@@ -25,7 +26,7 @@ source ~/.bashrc
 
 
 # Install miniconda
-bash Miniconda3*.sh -b
+bash ./Miniconda3-latest-Linux-x86_64.sh
 
 
 
